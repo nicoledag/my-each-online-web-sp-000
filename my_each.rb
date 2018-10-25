@@ -14,3 +14,6 @@ def my_each(array) # put argument(s) here
      print "No block was given!"
   end
 end
+
+my_each(array) {|element| puts "element"  }
+end
