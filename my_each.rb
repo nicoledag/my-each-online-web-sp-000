@@ -11,6 +11,9 @@ def my_each(array) # put argument(s) here
 
      array
    else
-     puts "No bock was given!"
+     print "No bock was given!"
   end
 end
+
+
+
