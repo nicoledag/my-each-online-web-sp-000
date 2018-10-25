@@ -9,7 +9,7 @@ def my_each(words) # put argument(s) here
 
 
     while i < words.length
-      yeild(words[i])
+      yield(words[i])
       i += 1
 
 
