@@ -1,6 +1,6 @@
 require 'pry'
 
-def my_each(words) # put argument(s) here
+def my_each(array) # put argument(s) here
   # code here
 
   if block_given?
@@ -8,15 +8,15 @@ def my_each(words) # put argument(s) here
      i = 0
 
 
-    while i < words.length
-      yield(words[i])
+    while i < array.length
+      yield(array[i])
       i += 1
 
 
     end
 binding.pry
 
-     words
+     array
    else
 
      print "no block was given!"
@@ -24,4 +24,4 @@ binding.pry
 end
 
 
-my_each(words) {|word| puts word }
+my_each(array) {|i| puts i }
