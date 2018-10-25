@@ -14,7 +14,6 @@ def my_each(array) # put argument(s) here
 
 
     end
-binding.pry
 
      array
    else
@@ -23,4 +22,4 @@ binding.pry
   end
 end
 
-my_each(array) {|i| puts i }
+
