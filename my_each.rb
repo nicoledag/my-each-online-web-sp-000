@@ -21,3 +21,4 @@ def my_each(array) # put argument(s) here
      print "no block was given!"
   end
 end
+binding.pry
