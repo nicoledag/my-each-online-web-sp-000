@@ -22,6 +22,6 @@ binding.pry
      print "no block was given!"
   end
 end
+ex
 
 
-my_each(array) {|i| puts i }
