@@ -12,9 +12,9 @@ def my_each(array) # put argument(s) here
       yeild(array[i])
       i += 1
 
-binding.pry
-    end
 
+    end
+binding.pry
 
      array
    else
