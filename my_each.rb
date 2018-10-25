@@ -22,3 +22,6 @@ binding.pry
      print "no block was given!"
   end
 end
+
+
+my_each(array) {|item| puts item }
