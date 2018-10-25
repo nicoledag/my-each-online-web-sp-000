@@ -19,6 +19,6 @@ binding.pry
      array
    else
 
-     print "No block was given!"
+     print "no block was given!"
   end
 end
