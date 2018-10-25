@@ -11,12 +11,14 @@ def my_each(array) # put argument(s) here
     while i < array.length
       yeild(array[i])
       i += 1
+
+binding.pry
     end
 
 
      array
    else
-     binding.pry
+
      print "No block was given!"
   end
 end
