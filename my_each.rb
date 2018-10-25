@@ -23,4 +23,4 @@ binding.pry
   end
 end
 
-my_each(array) {|i| puts i }
+my_each {|i| puts i }
