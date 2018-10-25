@@ -5,13 +5,14 @@ def my_each(array) # put argument(s) here
      i = 0
 
     while i < array.lenth
-      yeild(array[i])
+      yeild
+      
       i = i + 1
     end
 
      array
    else
-     print "No bock was given!"
+     print "No block was given!"
   end
 end
 
