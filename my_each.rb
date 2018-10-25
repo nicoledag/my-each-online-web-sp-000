@@ -7,11 +7,12 @@ def my_each(array) # put argument(s) here
 
      i = 0
 
+  binding.pry
     while i < array.length
       yeild(array[i])
       i += 1
     end
-    binding.pry
+  
 
      array
    else
